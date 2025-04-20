@@ -1,6 +1,6 @@
 package task1;
 
-public class TestTask1 {
+public class Test {
     public static void main(String[] args) {
 
         Email email = new Email("this is an email");
