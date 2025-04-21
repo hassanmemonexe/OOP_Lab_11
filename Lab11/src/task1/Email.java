@@ -11,17 +11,6 @@ public class Email extends Message {
         this.subject = subject;
     }
 
-    public void setSender(String sender) {
-
-    }
-
-    public void setReceiver(String receiver) {
-
-    }
-
-    public void setSubject(String subject) {
-
-    }
 
     @Override
     public String toString() {
