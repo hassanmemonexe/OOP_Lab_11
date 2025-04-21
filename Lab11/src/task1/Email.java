@@ -4,20 +4,23 @@ public class Email extends Message {
 
     String sender, receiver, subject;
 
-    Email(String text){
+    Email(String text,String sender,String receiver, String subject){
         super(text);
+        this.sender = sender;
+        this.receiver = receiver;
+        this.subject = subject;
     }
 
     public void setSender(String sender) {
-        this.sender = sender;
+
     }
 
     public void setReceiver(String receiver) {
-        this.receiver = receiver;
+
     }
 
     public void setSubject(String subject) {
-        this.subject = subject;
+
     }
 
     @Override

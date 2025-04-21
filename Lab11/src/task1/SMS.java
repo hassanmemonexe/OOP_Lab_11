@@ -2,19 +2,18 @@ package task1;
 
 public class SMS extends Message{
 
-    int recipientContactNo;
+    long recipientContactNo;
 
-    SMS(String text) {
+    SMS(String text, long recipientContactNo) {
         super(text);
+        this.recipientContactNo = recipientContactNo;
     }
 
-    public int getContactNo(){
+    public long getContactNo(){
         return recipientContactNo;
     }
 
-    public void setContactNo(int recipientContactNo){
-        this.recipientContactNo = recipientContactNo;
-    }
+
 
     @Override
     public String toString(){

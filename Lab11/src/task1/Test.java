@@ -3,14 +3,12 @@ package task1;
 public class Test {
     public static void main(String[] args) {
 
-        Email email = new Email("this is an email");
-        SMS sms = new SMS("this is a SMS");
+        Email email = new Email("Hello","Hassan","Faisal","testing email");
+        SMS sms = new SMS("Hi", 8218938);
 
-        email.setSender("Hassan");
-        email.setReceiver("Faisal");
-        email.setSubject("To test the email class");
 
-        sms.setContactNo(3293);
+
+
 
         System.out.println(email.toString());
 
